@@ -1,7 +1,6 @@
 name: Auto Assign 
 
 on:
-  push:
   pull_request:
     
 jobs:
@@ -9,5 +8,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: kentaro-m/auto-assign-action@v1.2.1
-        with:
-          configuration-path: 'Otus-DevOps-2022-05/sidorovAlexeyTest_infra/tree/play-travis/.github/auto-assign.yml'
+#        with:
+#         configuration-path: 'Otus-DevOps-2022-05/sidorovAlexeyTest_infra/tree/play-travis/.github/auto-assign.yml'
