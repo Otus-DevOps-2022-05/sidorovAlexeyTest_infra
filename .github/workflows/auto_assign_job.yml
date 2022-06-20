@@ -10,4 +10,4 @@ jobs:
     steps:
       - uses: kentaro-m/auto-assign-action@v1.2.1
         with:
-          configuration-path: '.github/workflows/auto-assign.yml'
+          configuration-path: 'Otus-DevOps-2022-05/sidorovAlexeyTest_infra/tree/play-travis/.github/auto-assign.yml'
