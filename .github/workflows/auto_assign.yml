@@ -1,11 +1,3 @@
-name: Auto Assign 
-
-on:
-  push:
-    branches-ignore: main
-  pull_request:
-    branches-ignore: main
-
 # Set to true to add assignees to pull requests
 addAssignees: true
 
